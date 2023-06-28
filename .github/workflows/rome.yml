@@ -1,0 +1,16 @@
+name: Rome CI
+on:
+  workflow_call:
+
+jobs:
+  rome-ci:
+    name: Run rome ci
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+      - run: yarn dlx $(yarn info rome --name-only --json | xargs printf '%b') ci .
+        name: "Run rome ci"
+        env:
+          CODEARTIFACT_AUTH_TOKEN: NOT_USED
+
