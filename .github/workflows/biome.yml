@@ -10,4 +10,4 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - run: yarn dlx $(yarn info @biomejs/biome --name-only --json | xargs printf '%b') ci .
-        name: "Run Biome "
+        name: "Run Biome"
