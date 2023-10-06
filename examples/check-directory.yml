@@ -11,4 +11,3 @@ jobs:
     uses: necko-actions/reusable-workflows/.github/workflows/check-directory.yml@v1
     with:
       directory: dist
-
