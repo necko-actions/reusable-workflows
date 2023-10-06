@@ -5,4 +5,4 @@ on:
 
 jobs:
   biome-ci:
-    uses: necko-actions/reusable-workflows/.github/workflows/biome.yml
+    uses: necko-actions/reusable-workflows/.github/workflows/biome.yml@v1
