@@ -4,5 +4,5 @@ on:
   pull_request:
 
 jobs:
-  rome-ci:
+  biome-ci:
     uses: necko-actions/reusable-workflows/.github/workflows/biome.yml@biome
