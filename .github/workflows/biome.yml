@@ -1,0 +1,13 @@
+name: Biome CI
+on:
+  workflow_call:
+
+jobs:
+  biome-ci:
+    name: Run Biome CI
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+      - run: yarn dlx $(yarn info @biomejs/biome --name-only --json | xargs printf '%b') ci .
+        name: "Run Biome "
