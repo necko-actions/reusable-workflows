@@ -13,4 +13,3 @@ jobs:
         name: "Run rome ci"
         env:
           CODEARTIFACT_AUTH_TOKEN: NOT_USED
-
