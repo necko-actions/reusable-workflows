@@ -1,5 +1,24 @@
 # Changelog
 
+## [1.1.0](https://github.com/necko-actions/reusable-workflows/compare/v1.0.0...v1.1.0) (2023-10-23)
+
+
+### Features
+
+* **workflows:** added biome workflow ([#5](https://github.com/necko-actions/reusable-workflows/issues/5)) ([4c9fde9](https://github.com/necko-actions/reusable-workflows/commit/4c9fde9374dcdba09cd0788e59b02abbbf5d035a))
+
+
+### Dependencies
+
+* **github-actions:** bump actions/checkout from 3 to 4 ([#3](https://github.com/necko-actions/reusable-workflows/issues/3)) ([9ba4b60](https://github.com/necko-actions/reusable-workflows/commit/9ba4b6089636241839f9f90c94281ec7bc537c01))
+* **github-actions:** bump actions/setup-node from 3 to 4 ([#6](https://github.com/necko-actions/reusable-workflows/issues/6)) ([4851aaf](https://github.com/necko-actions/reusable-workflows/commit/4851aaffecf817e5a7c0a3605fa1768272b1c546))
+* **github-actions:** bump amannn/action-semantic-pull-request ([#4](https://github.com/necko-actions/reusable-workflows/issues/4)) ([7c2975f](https://github.com/necko-actions/reusable-workflows/commit/7c2975f485963b4cd1be8cba1152bc50fd98b15c))
+
+
+### Continuous Integration
+
+* **release:** use v1 as ref ([9b5343b](https://github.com/necko-actions/reusable-workflows/commit/9b5343b43520f6b15b37d6b985804a962a401c08))
+
 ## 1.0.0 (2023-06-28)
 
 
