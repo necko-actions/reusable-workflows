@@ -7,4 +7,3 @@ updates:
       interval: "weekly"
     commit-message:
       prefix: "deps(github-actions):"
-

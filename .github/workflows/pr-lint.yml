@@ -13,4 +13,3 @@ on:
 jobs:
   pull-request-lint:
     uses: necko-actions/reusable-workflows/.github/workflows/pull-request-lint.yml@v1
-
