@@ -8,6 +8,6 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
       - run: yarn dlx $(yarn info @biomejs/biome --name-only --json | xargs printf '%b') ci .
         name: "Run Biome"
