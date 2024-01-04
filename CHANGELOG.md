@@ -1,5 +1,14 @@
 # Changelog
 
+## [1.1.1](https://github.com/necko-actions/reusable-workflows/compare/v1.1.0...v1.1.1) (2023-12-29)
+
+
+### Dependencies
+
+* **github-actions:** bump actions/checkout from 3 to 4 ([#7](https://github.com/necko-actions/reusable-workflows/issues/7)) ([ca6d5aa](https://github.com/necko-actions/reusable-workflows/commit/ca6d5aa16278f1c2390f62eddedc925f3783f384))
+* **github-actions:** bump amannn/action-semantic-pull-request ([#8](https://github.com/necko-actions/reusable-workflows/issues/8)) ([bf75a8e](https://github.com/necko-actions/reusable-workflows/commit/bf75a8e72fefe99d1b745b820a8f274e8cc821eb))
+* **github-actions:** bump google-github-actions/release-please-action ([#9](https://github.com/necko-actions/reusable-workflows/issues/9)) ([5a3c438](https://github.com/necko-actions/reusable-workflows/commit/5a3c4389f8e9f5f1a0a06450f07847a18c85c112))
+
 ## [1.1.0](https://github.com/necko-actions/reusable-workflows/compare/v1.0.0...v1.1.0) (2023-10-23)
 
 
