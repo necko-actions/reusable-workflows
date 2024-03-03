@@ -7,4 +7,4 @@ on:
 
 jobs:
   release:
-    uses: necko-actions/reusable-workflows/.github/workflows/release-please.yml@v1
+    uses: necko-actions/reusable-workflows/.github/workflows/release-please.yml@main
