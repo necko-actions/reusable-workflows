@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.1](https://github.com/necko-actions/reusable-workflows/compare/@necko-tech/reusable-workflows-v1.2.0...@necko-tech/reusable-workflows-v1.2.1) (2024-03-03)
+
+
+### Continuous Integration
+
+* **release:** replace default-branch by target-branch ([d82e97d](https://github.com/necko-actions/reusable-workflows/commit/d82e97db10bd6286f77ac172880d2172587a9664))
+
 ## [1.2.0](https://github.com/necko-actions/reusable-workflows/compare/@necko-tech/reusable-workflows-v1.1.1...@necko-tech/reusable-workflows-v1.2.0) (2024-03-03)
 
 
