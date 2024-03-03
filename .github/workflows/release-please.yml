@@ -2,14 +2,6 @@ name: Release
 
 on:
   workflow_call:
-    inputs:
-      release-type:
-        required: false
-        type: string
-        default: node
-      package-name:
-        required: false
-        type: string
 
 jobs:
   release-please:
@@ -21,52 +13,7 @@ jobs:
       - uses: google-github-actions/release-please-action@v4
         id: release
         with:
-          release-type: ${{ inputs.release-type }}
           default-branch: main
-          package-name: ${{ inputs.package-name }}
-          changelog-types: |
-            [
-              {
-                "type": "feat",
-                "section": "Features",
-                "hidden": false
-              },
-              {
-                "type": "fix",
-                "section": "Bug Fixes",
-                "hidden": false
-              },
-              {
-                "type": "chore",
-                "section": "Miscellaneous Chores",
-                "hidden": true
-              },
-              {
-                "type": "revert",
-                "section": "Reverts",
-                "hidden": false
-              },		
-              {
-                "type": "docs",
-                "section": "Documentation",
-                "hidden": false
-              },		
-              {
-                "type": "refactor",
-                "section": "Code Refactoring",
-                "hidden": false
-              },
-              {
-                "type": "deps",
-                "section": "Dependencies",
-                "hidden": false
-              },
-              {
-                "type": "ci",
-                "section": "Continuous Integration",
-                "hidden": false
-              }
-            ]
       - uses: actions/checkout@v4
         if: ${{ steps.release.outputs.release_created }}
       - name: tag major and minor versions
