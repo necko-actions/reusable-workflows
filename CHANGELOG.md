@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.2](https://github.com/necko-actions/reusable-workflows/compare/@necko-tech/reusable-workflows-v1.2.1...@necko-tech/reusable-workflows-v1.2.2) (2024-03-03)
+
+
+### Dependencies
+
+* **yarn:** migrate to yarn v4 ([#15](https://github.com/necko-actions/reusable-workflows/issues/15)) ([8687eb1](https://github.com/necko-actions/reusable-workflows/commit/8687eb1a5b6af5dfc63e0d744ea3482405763402))
+
 ## [1.2.1](https://github.com/necko-actions/reusable-workflows/compare/@necko-tech/reusable-workflows-v1.2.0...@necko-tech/reusable-workflows-v1.2.1) (2024-03-03)
 
 
