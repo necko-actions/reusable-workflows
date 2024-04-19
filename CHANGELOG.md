@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.3.0](https://github.com/necko-actions/reusable-workflows/compare/@necko-tech/reusable-workflows-v1.2.1...@necko-tech/reusable-workflows-v1.3.0) (2024-04-19)
+
+
+### Features
+
+* **pull-request-lint:** add per, build, meta and deps types ([#17](https://github.com/necko-actions/reusable-workflows/issues/17)) ([e9b594d](https://github.com/necko-actions/reusable-workflows/commit/e9b594d98183cef78a22ac4200654d713b6ab6bc))
+
+
+### Dependencies
+
+* **yarn:** migrate to yarn v4 ([#15](https://github.com/necko-actions/reusable-workflows/issues/15)) ([8687eb1](https://github.com/necko-actions/reusable-workflows/commit/8687eb1a5b6af5dfc63e0d744ea3482405763402))
+
 ## [1.2.1](https://github.com/necko-actions/reusable-workflows/compare/@necko-tech/reusable-workflows-v1.2.0...@necko-tech/reusable-workflows-v1.2.1) (2024-03-03)
 
 
