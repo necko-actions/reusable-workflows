@@ -22,10 +22,13 @@ jobs:
           types: |-
             feat
             fix
-            revert
             chore
+            revert
             docs
+            perf
             refactor
-            deps
             ci
+            build
+            meta
+            deps
           requireScope: ${{ inputs.requireScope }}
